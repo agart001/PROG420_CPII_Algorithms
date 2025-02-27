@@ -252,8 +252,8 @@ auto main(int argc, char* argv[]) -> int {
 
 	Array* nums = DigitStringToIntArray(_input);
 
-	int highestproduct = GetHighestProduct(nums, 13);
-	std::cout << highestproduct << std::endl;
+	int hp = GetHighestProduct(nums, 13);
+	std::cout << hp << std::endl;
 
 
     return 0;
